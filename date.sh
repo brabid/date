@@ -1,5 +1,5 @@
 #!/bin/bash
-# **Month Start and End date** My name is Ben
+# **Month Start and End date** My name is BenRabideau
 
 month_year=$(date +'%m %Y' | awk '!--$1{$1=12;$2--}1')
 m=${month_year% *}
